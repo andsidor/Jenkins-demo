@@ -15,6 +15,7 @@ pipeline {
             }
             steps {
                 sh 'echo "Hello World"'
+                sh 'npn--version'
             }
         }
         stage('Hello3') {
